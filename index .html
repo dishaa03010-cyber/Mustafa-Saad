@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مركز تحميل الألعاب</title>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #fff; margin: 0; padding: 20px; }
+  h1 { text-align: center; color: #38bdf8; margin-bottom: 30px; }
+  .games-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto; }
+  .card { background: #1e293b; border-radius: 12px; padding: 20px; text-align: center; border: 1px solid #334155; }
+  .card h3 { margin-top: 0; color: #f8fafc; }
+  .card p { color: #94a3b8; font-size: 0.9em; }
+  .btn-download { display: inline-block; padding: 10px 20px; margin-top: 15px; background: #22c55e; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
+  .btn-download:hover { background: #16a34a; }
+</style>
+</head>
+<body>
 
+  <h1>🎮 موقع تحميل الألعاب المجانية</h1>
+
+  <div class="games-grid">
+    <!-- لعبة 1 -->
+    <div class="card">
+      <h3>لعبة السيارات 3D</h3>
+      <p>لعبة سباق سيارات ممتعة بحجم صغير.</p>
+      <a href="https://example.com/game1.zip" class="btn-download" download>تحميل اللعبة (PC)</a>
+    </div>
+
+    <!-- لعبة 2 -->
+    <div class="card">
+      <h3>لعبة المغامرات</h3>
+      <p>عالم مفتوح ومغامرات حماسية للأندرويد.</p>
+      <a href="https://example.com/game2.apk" class="btn-download" download>تحميل APK</a>
+    </div>
+  </div>
+
+</body>
+</html>
